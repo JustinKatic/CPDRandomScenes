@@ -17,7 +17,7 @@ public class SpawnObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        objToSpawn.SetActive(true);
+        //objToSpawn.SetActive(true);
         SpawnCooldown -= Time.deltaTime;
         if(SpawnCooldown < 0)
         {
